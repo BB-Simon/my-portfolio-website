@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500" height="400" viewBox="0 0 1500 400">
+  <defs>
+    <clipPath id="clip-footer">
+      <rect width="1500" height="400"/>
+    </clipPath>
+  </defs>
+  <g id="footer" clip-path="url(#clip-footer)">
+    <path id="Path_134" data-name="Path 134" d="M-137.237,273.551s-122.572,455.21,0,575.29,261.219-101.846,521.1-195.4,527.365,138.6,710.28,195.4,322.458,44.987,477.087-132.235-25.881-412.666-25.881-412.666Z" transform="translate(1456.044 886.602) rotate(180)" fill="#8ebae2"/>
+  </g>
+</svg>

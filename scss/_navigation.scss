@@ -1,0 +1,106 @@
+@import "config";
+.expBtn {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 13px;
+  padding: 6px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  border: none;
+  background: $primary-color;
+  border: 1.8px solid #fff;
+  color: #fff;
+  @include easeOut;
+  &:hover {
+    background: #fff;
+    color: $primary-color;
+    transform: scale(1.1);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+#navbar img {
+  margin-right: -100px;
+  position: relative;
+  @include easeOut;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.header-width {
+  a {
+    text-decoration: none;
+  }
+}
+#main-heading {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  .hi {
+    color: #fc3;
+    font-size: 2.3rem;
+    @include easeOut;
+  }
+  .type {
+    font-size: 4.5rem;
+    @include easeOut;
+  }
+}
+
+p.soft {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.portBtn {
+  width: 250px;
+  background: #fff;
+  padding: 15px;
+  font-size: 1rem;
+  color: $primary-color;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  box-shadow: 0 0 6px silver;
+  @include easeOut;
+  &:hover {
+    @include easeOut;
+    background: #f6f6f6;
+    transform: scale(1.05);
+    i {
+      @include easeOut;
+      animation: a 0.4s 1;
+      @keyframes a {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main-heading {
+    .hi {
+      font-size: 1.8rem;
+    }
+    .type {
+      font-size: 2.8rem;
+    }
+  }
+  p.soft {
+    font-size: 1rem;
+  }
+  .portBtn {
+    padding: 12px;
+  }
+}

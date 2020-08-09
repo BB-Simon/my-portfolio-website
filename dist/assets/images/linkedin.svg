@@ -1,0 +1,8 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_13" data-name="Path 13" d="M26,32H6a6,6,0,0,1-6-6V6A6,6,0,0,1,6,0H26a6,6,0,0,1,6,6V26A6,6,0,0,1,26,32Z" fill="#c1ffbd"/>
+  <path id="Path_14" data-name="Path 14" d="M24,24h0V18.131c0-2.871-.618-5.082-3.974-5.082a3.483,3.483,0,0,0-3.138,1.725h-.046V13.317H13.66V24h3.314V18.71c0-1.393.264-2.739,1.989-2.739,1.7,0,1.725,1.589,1.725,2.829V24Z" fill="#0197f6"/>
+  <g id="Group_1" data-name="Group 1">
+    <path id="Path_15" data-name="Path 15" d="M8.264,13.318h3.317V24H8.264Z" fill="#0197f6"/>
+    <path id="Path_16" data-name="Path 16" d="M9.921,8a1.93,1.93,0,1,0,1.921,1.921A1.922,1.922,0,0,0,9.921,8Z" fill="#0197f6"/>
+  </g>
+</svg>

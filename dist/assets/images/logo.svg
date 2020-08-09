@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="39" viewBox="0 0 83 39">
+  <defs>
+    <filter id="Simon" x="8.784" y="9.224" width="63" height="27" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-logo">
+      <rect width="83" height="39"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="Group_45" data-name="Group 45" transform="translate(-29 159)">
+      <g id="Group_44" data-name="Group 44" transform="translate(10.657 -218.545)">
+        <path id="Path_107" data-name="Path 107" d="M64.785-4c-4.77-6.51,52.623,145.072-10.8,81.868s-55.788-48-55.788-48S69.555,2.507,64.785-4Z" transform="translate(83.82 120) rotate(-154)" fill="#3f3d56"/>
+        <g transform="matrix(1, 0, 0, 1, 18.34, 59.55)" filter="url(#Simon)">
+          <text id="Simon-2" data-name="Simon" transform="translate(13.28 25.72)" fill="#f8f9fa" font-size="14" font-family="Plaster-Regular, Plaster"><tspan x="0" y="0">Simon</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
